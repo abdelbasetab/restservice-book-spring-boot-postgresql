@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/com.example.bookmanagement/com.example.bookmanagement.iml" filepath="$PROJECT_DIR$/com.example.bookmanagement/com.example.bookmanagement.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/restservice-book-spring-boot-postgresql.iml" filepath="$PROJECT_DIR$/.idea/restservice-book-spring-boot-postgresql.iml" />
+    </modules>
+  </component>
+</project>
