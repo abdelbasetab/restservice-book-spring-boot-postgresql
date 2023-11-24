@@ -10,6 +10,6 @@ import java.util.ArrayList;
 public interface BookRepository extends JpaRepository<Book,Long> {
 
 
-    @Query(value = "select * from book where book.title LIKE  %?1% ", nativeQuery = true)
+    @Query(value = "select * from book where book.title ILIKE  %?1% ", nativeQuery = true)
     public ArrayList<Book> getAllBooksWithTitle(String word);
 }
